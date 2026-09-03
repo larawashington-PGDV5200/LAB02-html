@@ -1,135 +1,141 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Designer — Portfolio</title>
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
 
-      body {
-        background-color: #f9f8f6;
-        color: #1c1c1c;
-        font-family: Arial, sans-serif;
-        padding: 40px 80px;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <title>Designer — Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-      .main-image {
-        width: 45%;
-        aspect-ratio: 1 / 1;
-        overflow: hidden;
-      }
+    body {
+      background-color: #f9f8f6;
+      color: #1c1c1c;
+      font-family: Arial, sans-serif;
+      padding: 40px 80px;
+    }
 
-      .main-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center center;
-      }
+    .main-image {
+      width: 45%;
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+    }
 
-      .home-splash {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        gap: 60px;
-        align-items: center;
-        justify-content: space-between;
-      }
+    .main-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
 
-      .menu {
-        display: flex;
-        gap: 36px;
-      }
+    .home-splash {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      gap: 60px;
+      align-items: center;
+      justify-content: space-between;
+    }
 
-      .menu a {
-        text-decoration: none;
-        color: #4a4a4a;
-        font-size: 0.85rem;
-        font-weight: 500;
-      }
+    .menu {
+      display: flex;
+      gap: 36px;
+    }
 
-      .title {
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: 1.25rem;
-        font-weight: normal;
-      }
+    .menu a {
+      text-decoration: none;
+      color: #4a4a4a;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
 
-      .content {
-        width: 55%;
-        max-width: 520px;
-      }
+    .title {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.25rem;
+      font-weight: normal;
+    }
 
-      .subtext {
-        font-size: 0.95rem;
-        line-height: 1.5;
-        color: #555;
-        margin-bottom: 40px;
-      }
+    .content {
+      width: 55%;
+      max-width: 520px;
+    }
 
-      .top-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 90px;
-      }
+    .subtext {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #555;
+      margin-bottom: 40px;
+    }
 
-      .work-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        text-decoration: none;
-        color: #1c1c1c;
-        font-size: 0.85rem;
-        font-weight: 600;
-      }
+    .top-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 90px;
+    }
 
-      .kicker {
-        font-size: 0.75rem;
-        font-weight: 600;
-        letter-spacing: 1.5px;
-        color: #7a7a7a;
-        text-transform: uppercase;
-        margin-bottom: 24px;
-      }
+    .work-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      color: #1c1c1c;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
 
-      .headline {
-        font-family: "Times New Roman", serif;
-        font-size: 3.8rem;
-        line-height: 1.08;
-        font-weight: normal;
-        letter-spacing: -0.5px;
-        margin-bottom: 32px;
-      }
+    .kicker {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      color: #7a7a7a;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
 
-      .headline em {
-        font-style: italic;
-      }
-    </style>
-  </head>
+    .headline {
+      font-family: "Times New Roman", serif;
+      font-size: 3.8rem;
+      line-height: 1.08;
+      font-weight: normal;
+      letter-spacing: -0.5px;
+      margin-bottom: 32px;
+    }
 
-  <body>
-    <div class="content"></div>
-    <section class="home-splash"></section>
-    <div>Data &amp; Design</div>
-    <h1 class="headline">
-      Designer crafting stories with technology and <em>intention</em>.
-    </h1>
-    <div >Designer Name</div>
-    <section class="top-header"></section>
-    <nav class="menu"></nav>
-    <div class="main-image"></div>
-    <img src="./imgs/data-art.jpg" alt="Data Art" />
-    <p class="subtext">
-      I help numbers find their voice through analysis, storytelling and
-      considered design. Based in New York.
-    </p>
-    <a href="#">Work</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-    <a href="#">View Selected Work &rarr;</a>
-  </body>
+    .headline em {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="top-header">
+    <div>Designer Name</div>
+    <nav class="menu">
+      <a href="#">Work</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </section>
+  <section class="home-splash">
+    <div class="content">
+      <div>Data &amp; Design</div>
+      <h1 class="headline">
+        Designer crafting stories with technology and <em>intention</em>.
+      </h1>
+      <p class="subtext">
+        I help numbers find their voice through analysis, storytelling and
+        considered design. Based in New York.
+      </p>
+      <a href="#">View Selected Work &rarr;</a>
+    </div>
+    <div class="main-image">
+      <img src="./imgs/data-art.jpg" alt="Data Art" />
+    </div>
+  </section>
+</body>
 </html>

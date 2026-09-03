@@ -20,15 +20,63 @@
         width: 75%;
         height: 100%;
         background-color: red;
+        display: flex;
+        flex-direction: column;
+      }
+      .c1top {
+        height: 75%;
+        background-color: red;
+      }
+      .c1bottom {
+        height: 25%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+      }
+      .c0top {
+        height: 75%;
+      }
+      .c0bottom {
+        height: 25%;
+        background-color: blue;
+      }
+      .bottomc2 {
+        width: 80%;
+        background-color: white;
+      }
+      .bottomc3 {
+        width: 20%;
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+      }
+      .bottomc3top {
+        height: 50%;
+        background-color: white;
+      }
+      .bottomc3bottom {
+        height: 50%;
+        background-color: yellow;
       }
     </style>
   </head>
   <body>
     <!-- ADD STRUCTURE HERE -->
      <main class="painting">
-      <section class="column0"></section>
-      <section class="column1"></section>
-      <section class="row0"></section>
+      <section class="column0">
+        <section class="c0top"></section>
+        <section class="c0bottom"></section>
+      </section>
+      <section class="column1">
+        <section class="c1top"></section>
+        <section class="c1bottom">
+          <section class="bottomc2"></section>
+          <section class="bottomc3">
+            <section class="bottomc3top"></section>
+            <section class="bottomc3bottom"></section>
+          </section>
+        </section>
+      </section>
      </main>
   </body>
 </html>
